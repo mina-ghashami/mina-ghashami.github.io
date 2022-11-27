@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://mina-ghashami.github.io/sitemap.xml
