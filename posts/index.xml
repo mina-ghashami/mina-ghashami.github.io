@@ -1,21 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on Mina Ghashami&#39;s blog</title>
+    <title>Mina Ghashami&#39;s blog</title>
     <link>https://mina-ghashami.github.io/posts/</link>
-    <description>Recent content in Posts on Mina Ghashami&#39;s blog</description>
+    <description>Recent content on Mina Ghashami&#39;s blog</description>
     <image>
       <url>https://mina-ghashami.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://mina-ghashami.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 16 Sep 2022 23:00:33 -0700</lastBuildDate><atom:link href="https://mina-ghashami.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 05 Jan 2023 11:18:07 -0800</lastBuildDate><atom:link href="https://mina-ghashami.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Transformer: Concept and code from scratch</title>
+      <link>https://mina-ghashami.github.io/posts/2023-01-10-transformer/</link>
+      <pubDate>Thu, 05 Jan 2023 11:18:07 -0800</pubDate>
+      
+      <guid>https://mina-ghashami.github.io/posts/2023-01-10-transformer/</guid>
+      <description>Transformers are novel neural networks that are mainly used for sequence transduction tasks. Sequence transduction is any task where input sequences are transformed into output sequences. Most competitive neural sequence transduction models have an encoder-decoder structure. The encoder maps an input sequence of symbol representations to a sequence of continuous representations, the decoder then generates an output sequence of symbols one element at a time. At each step the model is auto-regressive, consuming the previously generated symbols as additional input when generating the next.</description>
+    </item>
+    
     <item>
       <title>Convergence of gradient descent in over-parameterized networks</title>
-      <link>https://mina-ghashami.github.io/posts/over_param_convergence/</link>
+      <link>https://mina-ghashami.github.io/posts/2022-09-16-over-param_convergence/</link>
       <pubDate>Fri, 16 Sep 2022 23:00:33 -0700</pubDate>
       
-      <guid>https://mina-ghashami.github.io/posts/over_param_convergence/</guid>
+      <guid>https://mina-ghashami.github.io/posts/2022-09-16-over-param_convergence/</guid>
       <description>Neural networks typically have very large number of parameters. Depending on whether they have more parameters than training instances, they are over-parameterized or under-parameterized. In either case, their loss function is a multivariable, multidimensional and often non-convex function. In this post, we study over-parameterized neural networks and their loss landscape; we answer the question of why gradient descent (GD) and its variants converge to global minima in over-parameterized neural networks, even though their loss function is non-convex.</description>
     </item>
     
